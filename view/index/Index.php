@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/view/login/LoginPage.php">MailMe</a>
+            <a class="navbar-brand" href="/view/login/LoginPage.php">MailMeV2</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
