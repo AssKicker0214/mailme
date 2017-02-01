@@ -1,0 +1,8 @@
+#scroll{
+    border-color: black;
+    border-style: solid;
+}
+
+.filled{
+    min-height: 110px;
+}
