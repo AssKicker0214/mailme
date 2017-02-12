@@ -154,7 +154,7 @@ function calculateDistance(pointMine, pointPal){
     return distance;
 }
 
-//mapLocation();
+mapLocation();
 setDuration();
-getWeather();
+// getWeather();
 //findWeather();
