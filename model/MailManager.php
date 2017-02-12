@@ -5,7 +5,7 @@
  * Date: 2015/12/16
  * Time: 19:06
  */
-include_once "./PDOLink.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/model/PDOLink.php";
 function sendMail($to, $from, $title, $content, $backgroundImg){
     $pdo = Link::getPDO();
     $sql = "Insert Into Mail(FROMID, TOID, SUBJECT, CONTENT, SENTDATE, STATE, BACKGROUND) VALUES (?,?,?,?,?,?,?)";

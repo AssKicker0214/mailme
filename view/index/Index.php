@@ -79,7 +79,7 @@
 <div>
 
     <?php
-    include_once "../../model/MailManager.php";
+    include_once $_SERVER['DOCUMENT_ROOT']."/model/MailManager.php";
     include_once "./MailTile.php";
 
     $mails = getMail();
@@ -100,7 +100,7 @@
 <script src="/lib/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://rawgit.com/briangonzalez/rgbaster.js/master/rgbaster.js"></script>
 <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=20&ak=Zivdy91pRqUuLB5G8bioZNzS"></script>-->
-<script src="./IndexJS.js"></script>
+<script src="/view/index/IndexJS.js"></script>
 </body>
 </html>
 
