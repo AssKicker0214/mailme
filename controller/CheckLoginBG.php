@@ -12,7 +12,7 @@ $psw = $_GET['psw'];
 $city = $_GET['city'];
 //echo $userid." ".$psw." ".$city;
 $permit = checkLogin($userid, $psw);
-echo $permit;
+//echo $permit;
 //
 //if($permit){
 //    setcookie('userid',$userid,0,'/');
