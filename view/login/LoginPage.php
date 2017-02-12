@@ -34,7 +34,7 @@
 </form>
 
 <script src="/lib/jquery-2.1.4.min.js"></script>
-<script src="view-source:http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+<script src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 <script src="/view/tool/LocationJS.js"></script>
 <script src="/view/login/LoginJS.js"></script>
 </body>
