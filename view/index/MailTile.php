@@ -21,7 +21,7 @@ function buildLeftTile($mid, $subject, $content, $date, $url)
                 </div>
             </div>
             <br />
-            <p>'.substr($content, 0, 600).'……</p>
+            <p>'.substr($content, 0, 300).'……</p>
         </div>
         <div class="col-sm-4">
 <!---->
@@ -50,7 +50,7 @@ function buildRightTile($mid, $subject, $content, $date, $color){
 
             <a target="_blank" href="/view/detail/Detail.php?mid='.$mid.'"><h2>'.$subject.'</h2></a>
             <br />
-            <p>'.substr($content, 0, 600).'……</p>
+            <p>'.substr($content, 0, 300).'……</p>
         </div>
 
     </div>
