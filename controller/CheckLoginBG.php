@@ -14,8 +14,8 @@ $city = $_GET['city'];
 $permit = checkLogin($userid, $psw);
 //echo $permit;
 //
-//if($permit){
-//    setcookie('userid',$userid,0,'/');
-//
-//}
-//echo $permit,'<br/>登陆地点:',$city;
+if($permit){
+    setcookie('userid',$userid,0,'/');
+
+}
+echo $permit,'<br/>登陆地点:',$city;
