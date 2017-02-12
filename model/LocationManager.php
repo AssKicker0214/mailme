@@ -5,7 +5,7 @@
  * Date: 2016/1/23
  * Time: 17:11
  */
-require_once "./PDOLink.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/model/PDOLink.php";
 class Location{
     private $pdo;
     function __construct(){
