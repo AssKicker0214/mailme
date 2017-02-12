@@ -5,7 +5,7 @@
  * Date: 2015/12/14
  * Time: 17:00
  */
-include_once $_SERVER['DOCUMENT_ROOT']."model/PDOLink.php";
+include_once $_SERVER['DOCUMENT_ROOT']."/model/PDOLink.php";
 function checkLogin($userid, $psw){
     $pdo = Link::getPDO();
     $sql = "select * from LoginInfo WHERE UID="."'".$userid."' AND PSW="."'".$psw."'";
