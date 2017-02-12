@@ -17,6 +17,6 @@ function checkLogin(){
 function hideForm(){
     document.getElementById('login-form').style.visibility = "hidden";
     //alert('jump');
-    window.location.href = '/view/index/index.php';
+    window.location.href = '/view/index/Index.php';
 }
 
