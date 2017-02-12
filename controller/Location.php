@@ -6,8 +6,8 @@
  * Time: 17:11
  */
 
-require_once "../model/LocationManager.php";
-require_once "../model/UserInfo.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/model/LocationManager.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/model/UserInfo.php";
 $userid = $_COOKIE['userid'];
 $lgt = $_POST['lgt'];
 $atd = $_POST['atd'];

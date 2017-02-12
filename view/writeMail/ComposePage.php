@@ -38,7 +38,7 @@ $userid = $_COOKIE['userid'];
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a target="_blank" href="/view/index/index.php">读信</a> <span class="sr-only">(current)</span></li>
+                <li><a target="_blank" href="/view/index/Index.php">读信</a> <span class="sr-only">(current)</span></li>
                 <li class="active"><a href="#">写信</a></li>
                 <!--                <li class="dropdown">-->
                 <!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
@@ -121,8 +121,8 @@ $userid = $_COOKIE['userid'];
 <script src="/lib/jquery-2.1.4.min.js"></script>
 <script src="/lib/bootstrap.min.js"></script>
 
-<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=20&ak=Zivdy91pRqUuLB5G8bioZNzS"></script>-->
-<!--<script src="view-source:http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=20&ak=Zivdy91pRqUuLB5G8bioZNzS"></script>
+<script src="view-source:http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 <!--<script src="http://php.weather.sina.com.cn/xml.php?city=%B1%B1%BE%A9&password=DJOYnieT8234jlsK&day=0"></script>-->
 <script src="./ComposeJS.js"></script>
 </body>
