@@ -10,6 +10,7 @@ function checkLogin(){
         //document.body.style.backgroundImage = "url(/wallpaper/paper2.jpg)";
         //document.getElementById('bkgd').style.backgroundImage = "url(/wallpaper/paper2.jpg)";
         //setInterval(hideForm, 1000);
+        alert(respond);
         hideForm();
     }})
 }
@@ -17,6 +18,6 @@ function checkLogin(){
 function hideForm(){
     document.getElementById('login-form').style.visibility = "hidden";
     //alert('jump');
-    window.location.href = '/view/index/index.php';
+    window.location.href = 'http:115.28.137.6:21314/view/index/index.php';
 }
 
