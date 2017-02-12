@@ -11,8 +11,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <link href="../../lib/bootstrap.min.css" rel="stylesheet">
-    <link href="./LoginCSS.css" rel="stylesheet">
+    <link href="/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="/view/login/LoginCSS.css" rel="stylesheet">
     <title>登录</title>
 </head>
 <body>
@@ -37,6 +37,6 @@ test
 <script src="/lib/jquery-2.1.4.min.js"></script>
 <script src="view-source:http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 <script src="/view/tool/LocationJS.js"></script>
-<script src="./LoginJS.js"></script>
+<script src="/view/login/LoginJS.js"></script>
 </body>
 </html>
