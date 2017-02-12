@@ -19,7 +19,6 @@
 <div class="background" id="bkgd">
 
 </div>
-test
 <div id="on-login-container">
     <img src="/wallpaper/test.jpg" width="150" height="150">
     <br />
