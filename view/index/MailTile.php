@@ -40,11 +40,12 @@ function buildRightTile($mid, $subject, $content, $date, $color){
     if($subject == ''){
         $subject = '空的主题';
     }
+    $day = getDay($date);
     echo '
     <div class="right tile row" style="background-color: #286090">
         <div class="col-sm-4">
             <h2 class="tile-date">'.$date.'</h2>
-            <h4 class="tile-day">周几</h4>
+            <h4 class="tile-day">'.$day.'</h4>
         </div>
         <div class="col-sm-8">
 
@@ -55,4 +56,8 @@ function buildRightTile($mid, $subject, $content, $date, $color){
 
     </div>
     ';
+}
+
+function getDay($date){
+    return date("l", $date);
 }
